@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+<<<<<<< HEAD
 *.py[codz]
+=======
+*.py[cod]
+>>>>>>> c9a612e (Initial commit)
 *$py.class
 
 # C extensions
@@ -19,6 +23,7 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -29,6 +34,15 @@ MANIFEST
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos.
+>>>>>>> c9a612e (Initial commit)
 *.manifest
 *.spec
 
@@ -45,6 +59,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *.cover
 *.py.cover
 .hypothesis/
@@ -74,10 +89,16 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
+=======
+*,cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> c9a612e (Initial commit)
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -216,3 +237,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+=======
+# pyenv
+.python-version
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# dotenv
+.env
+.env.*
+>>>>>>> c9a612e (Initial commit)
