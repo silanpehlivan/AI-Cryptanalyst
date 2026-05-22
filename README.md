@@ -1,22 +1,40 @@
-# AI Cryptanalyst
+# AI Cryptanalyst 🚀
 
-Bu proje, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Streamlit tabanlı kullanıcı arayüzü ile şifreli metinleri analize ederek en olası şifreleme algoritmasını tespit eder ve çözümünü sunar.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/) [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 
-## Özellikler
+AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Streamlit tabanlı görsel kullanıcı arayüzü üzerinden şifreli metinleri analiz eder, en uygun şifreleme algoritmasını tahmin eder ve çözümünü sağlar.
 
-- Caesar (Sezar) şifrelemesi çözümü
-- Vigenere şifrelemesi çözümü
-- XOR tabanlı şifre çözümü
-- Base64 kod çözümü
-- Entropi ve İndeks of Coincidence (IC) hesaplama
-- Model eğitimi ve doğrulama araçları
+## ✨ Öne çıkanlar
 
-## Dosya yapısı
+- Otomatik şifre tespiti ve çözümleme
+- Caesar, Vigenere, XOR ve Base64 destekli
+- Metin analizi için Entropi ve IC hesaplama
+- Model eğitimi, değerlendirme ve doğrulama araçları
+- Kullanıcı dostu Streamlit arayüzü
+
+## ⚙️ Özellikler
+
+- `Caesar` (Sezar) şifre çözümü
+- `Vigenere` şifre çözümü
+- `XOR` tabanlı şifre çözümü
+- `Base64` kod çözümü
+- Entropi hesaplama
+- İndeks of Coincidence (IC) analizi
+- Model eğitim ve doğrulama süreçleri
+
+## 🧩 Nasıl çalışır?
+
+1. Kullanıcı şifreli metni girer.
+2. Model ve algoritmalar metni analiz eder.
+3. En olası şifreleme türü tespit edilir.
+4. Şifreli metin çözülür ve kullanıcıya sunulur.
+
+## 📁 Dosya yapısı
 
 - `app.py`: Streamlit uygulaması
 - `main_solver.py`: Ana kriptanaliz sınıfı ve çözümleyici
 - `solvers.py`: Şifre çözümleme algoritmaları
-- `train_model.py`: Model eğitimi scripti
+- `train_model.py`: Model eğitim scripti
 - `evaluate_model.py`: Eğitilmiş modeli değerlendirme
 - `verify_model.py`: Model doğrulama scripti
 - `verify_vigenere.py`: Vigenere doğrulama aracı
@@ -24,15 +42,21 @@ Bu proje, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Streamlit t
 - `utils.py`: Yardımcı fonksiyonlar
 - `crypto_dataset.csv`: Kullanılan eğitim/veri seti
 
-## Çalıştırma
+## 🚀 Kurulum
 
-1. Gerekli kütüphaneleri yükleyin:
+1. Proje dizinine gidin:
+
+```bash
+cd AI-Cryptanalyst
+```
+
+2. Gerekli kütüphaneleri yükleyin:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Uygulamayı başlatın:
+3. Uygulamayı çalıştırın:
 
 ```bash
 streamlit run app.py
@@ -41,12 +65,3 @@ streamlit run app.py
 ## Notlar
 
 Bu proje, kriptanaliz algoritmalarını ve makine öğrenmesi tabanlı yaklaşımı birleştirerek karmaşık şifrelenmiş metinleri otomatik olarak çözmeyi hedefler.
-
----
-## 📜 Lisans
-
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
-
-## 👩‍💻 Geliştirici
-
-Şilan Pehlivan
