@@ -65,3 +65,12 @@ streamlit run app.py
 ## Notlar
 
 Bu proje, kriptanaliz algoritmalarını ve makine öğrenmesi tabanlı yaklaşımı birleştirerek karmaşık şifrelenmiş metinleri otomatik olarak çözmeyi hedefler.
+
+---
+## 📜 Lisans
+
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+## 👩‍💻 Geliştirici
+
+Şilan Pehlivan
