@@ -109,6 +109,8 @@ AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Stre
 
 ## Kurulum
 
+Depoda `requirements.txt` bulunmaz. Aşağıdaki paketler kodun importlarından türetilmiştir; sürümler sabitlenmediği için model dosyalarıyla uyumluluk ayrıca kontrol edilmelidir.
+
 1. Proje dizinine gidin:
 
 ```bash
@@ -118,7 +120,7 @@ cd AI-Cryptanalyst
 2. Gerekli kütüphaneleri yükleyin:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install streamlit pandas numpy scipy scikit-learn tensorflow
 ```
 
 3. Uygulamayı çalıştırın:
