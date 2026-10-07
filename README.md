@@ -25,6 +25,29 @@
 
 Python · Streamlit · Machine Learning
 
+## Teknik yaklaşım
+
+Harf frekansları, coincidence index ve entropi metin özelliklerini oluşturur. Model eğitimi ile Caesar/Vigenere/XOR çözücüleri ayrı betiklerde incelenebilir.
+
+```mermaid
+flowchart LR
+A[Şifreli metin] --> B[Frekans IC ve entropi]
+B --> C[Algoritma sınıflandırma]
+C --> D[Çözümleme araçları]
+D --> E[Streamlit arayüzü]
+```
+
+## Kodu incelemeye başlayın
+
+- [app.py](app.py)
+- [main_solver.py](main_solver.py)
+- [solvers.py](solvers.py)
+- [test_solvers.py](test_solvers.py)
+
+## Kapsam ve sınırlar
+
+Eğitim araçlarıdır; modern kriptografiyi genel olarak kırma iddiası içermez. evaluate_model.py tüm CSV üzerinde değerlendirme yaptığı için bağımsız test sonucu olarak sunulmaz.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
