@@ -2,18 +2,33 @@
 
 # AI Cryptanalyst
 
-**Metin analizi ve kriptanaliz**
+### Şifreli metnin izini sür.
 
-![Python](https://img.shields.io/badge/Python-2563eb?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-0891b2?style=flat-square)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-7c3aed?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![Python](https://img.shields.io/badge/Python-2563eb?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-0891b2?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-7c3aed?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Şifreli metinler için algoritma tahmini ve çözümleme araçlarını Streamlit arayüzünde bir araya getiren eğitim uygulaması.
+
+**Metin analizi ve kriptanaliz**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/AI-Cryptanalyst/tree/main) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Caesar, Vigenere ve XOR çözümleme araçları
+- **02** · Base64 kod çözümü, entropi ve IC analizi
+- **03** · Veri üretimi, model eğitimi ve doğrulama
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -25,7 +40,7 @@
 
 Python · Streamlit · Machine Learning
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Harf frekansları, coincidence index ve entropi metin özelliklerini oluşturur. Model eğitimi ile Caesar/Vigenere/XOR çözücüleri ayrı betiklerde incelenebilir.
 
@@ -37,19 +52,18 @@ C --> D[Çözümleme araçları]
 D --> E[Streamlit arayüzü]
 ```
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [app.py](app.py)
 - [main_solver.py](main_solver.py)
 - [solvers.py](solvers.py)
 - [test_solvers.py](test_solvers.py)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Eğitim araçlarıdır; modern kriptografiyi genel olarak kırma iddiası içermez. evaluate_model.py tüm CSV üzerinde değerlendirme yaptığı için bağımsız test sonucu olarak sunulmaz.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/) [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 
@@ -118,6 +132,8 @@ streamlit run app.py
 Bu proje, kriptanaliz algoritmalarını ve makine öğrenmesi tabanlı yaklaşımı birleştirerek karmaşık şifrelenmiş metinleri otomatik olarak çözmeyi hedefler.
 
 ---
+
+
 
 
 </details>
