@@ -2,148 +2,31 @@
 
 # AI Cryptanalyst
 
-### Şifreli metnin izini sür.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3500&pause=2200&color=22d3ee&background=0D1117&center=true&vCenter=true&width=760&height=76&lines=%C5%9Eifreli%20metnin%20izini%20s%C3%BCr." alt="Şifreli metnin izini sür." width="760" />
 
-![Python](https://img.shields.io/badge/Python-2563eb?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-0891b2?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-7c3aed?style=for-the-badge)
-[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
+<br />
+
+<img alt="Python" src="https://img.shields.io/badge/Python-22d3ee?style=for-the-badge" />
+<img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-0891b2?style=for-the-badge" />
+<img alt="Machine Learning" src="https://img.shields.io/badge/Machine%20Learning-2563eb?style=for-the-badge" />
+
+<br /><br />
 
 Şifreli metinler için algoritma tahmini ve çözümleme araçlarını Streamlit arayüzünde bir araya getiren eğitim uygulaması.
 
-**Metin analizi ve kriptanaliz**
+<br />
 
-[Projeyi keşfet](https://github.com/silanpehlivan/AI-Cryptanalyst/tree/main) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
+**Caesar, Vigenere ve XOR çözümleme araçları** &nbsp; · &nbsp; **Base64 kod çözümü, entropi ve IC analizi** &nbsp; · &nbsp; **Veri üretimi, model eğitimi ve doğrulama**
+
+<br /><br />
+
+[![Projeyi keşfet](https://img.shields.io/badge/PROJEYİ_KEŞFET-0891b2?style=for-the-badge)](https://github.com/silanpehlivan/AI-Cryptanalyst/tree/main)
+[![Kurulum](https://img.shields.io/badge/KURULUM_&_TEKNİK_NOTLAR-334155?style=for-the-badge)](PROJECT_GUIDE.md)
 
 </div>
 
 ---
 
-## İçeride neler var?
-
-- **01** · Caesar, Vigenere ve XOR çözümleme araçları
-- **02** · Base64 kod çözümü, entropi ve IC analizi
-- **03** · Veri üretimi, model eğitimi ve doğrulama
-
-## Projeyi çalıştırmak ve incelemek
-
-<details>
-<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
-
-## Öne Çıkanlar
-
-- Caesar, Vigenere ve XOR çözümleme araçları
-- Base64 kod çözümü, entropi ve IC analizi
-- Veri üretimi, model eğitimi ve doğrulama
-
-## Teknolojiler
-
-Python · Streamlit · Machine Learning
-
-### Teknik yaklaşım
-
-Harf frekansları, coincidence index ve entropi metin özelliklerini oluşturur. Model eğitimi ile Caesar/Vigenere/XOR çözücüleri ayrı betiklerde incelenebilir.
-
-```mermaid
-flowchart LR
-A[Şifreli metin] --> B[Frekans IC ve entropi]
-B --> C[Algoritma sınıflandırma]
-C --> D[Çözümleme araçları]
-D --> E[Streamlit arayüzü]
-```
-
-### Kodu incelemeye başlayın
-
-- [app.py](app.py)
-- [main_solver.py](main_solver.py)
-- [solvers.py](solvers.py)
-- [test_solvers.py](test_solvers.py)
-
-### Kapsam ve sınırlar
-
-Eğitim araçlarıdır; modern kriptografiyi genel olarak kırma iddiası içermez. evaluate_model.py tüm CSV üzerinde değerlendirme yaptığı için bağımsız test sonucu olarak sunulmaz.
-
-
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/) [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-
-AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Streamlit tabanlı görsel kullanıcı arayüzü üzerinden şifreli metinleri analiz eder, en uygun şifreleme algoritmasını tahmin eder ve çözümünü sağlar.
-
-## Öne çıkanlar
-
-- Otomatik şifre tespiti ve çözümleme
-- Caesar, Vigenere, XOR ve Base64 destekli
-- Metin analizi için Entropi ve IC hesaplama
-- Model eğitimi, değerlendirme ve doğrulama araçları
-- Kullanıcı dostu Streamlit arayüzü
-
-## Özellikler
-
-- `Caesar` (Sezar) şifre çözümü
-- `Vigenere` şifre çözümü
-- `XOR` tabanlı şifre çözümü
-- `Base64` kod çözümü
-- Entropi hesaplama
-- İndeks of Coincidence (IC) analizi
-- Model eğitim ve doğrulama süreçleri
-
-## Nasıl çalışır?
-
-1. Kullanıcı şifreli metni girer.
-2. Model ve algoritmalar metni analiz eder.
-3. En olası şifreleme türü tespit edilir.
-4. Şifreli metin çözülür ve kullanıcıya sunulur.
-
-## Dosya yapısı
-
-- `app.py`: Streamlit uygulaması
-- `main_solver.py`: Ana kriptanaliz sınıfı ve çözümleyici
-- `solvers.py`: Şifre çözümleme algoritmaları
-- `train_model.py`: Model eğitim scripti
-- `evaluate_model.py`: Eğitilmiş modeli değerlendirme
-- `verify_model.py`: Model doğrulama scripti
-- `verify_vigenere.py`: Vigenere doğrulama aracı
-- `data_generator.py`: Veri seti oluşturma ve işleme
-- `utils.py`: Yardımcı fonksiyonlar
-- `crypto_dataset.csv`: Kullanılan eğitim/veri seti
-
-## Kurulum
-
-1. Proje dizinine gidin:
-
-```bash
-cd AI-Cryptanalyst
-```
-
-2. Gerekli kütüphaneleri yükleyin:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Uygulamayı çalıştırın:
-
-```bash
-streamlit run app.py
-```
-
-## Notlar
-
-Bu proje, kriptanaliz algoritmalarını ve makine öğrenmesi tabanlı yaklaşımı birleştirerek karmaşık şifrelenmiş metinleri otomatik olarak çözmeyi hedefler.
-
----
-
-
-
-
-</details>
-
----
-
 <div align="center">
-
-**© 2026 Şilan PEHLİVAN**
-
-Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
-
+<sub>© 2026 Şilan PEHLİVAN · <a href="LICENSE">MIT lisansı</a></sub>
 </div>
