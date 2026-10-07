@@ -1,10 +1,38 @@
-# AI Cryptanalyst 🚀
+<div align="center">
+
+# AI Cryptanalyst
+
+**Metin analizi ve kriptanaliz**
+
+![Python](https://img.shields.io/badge/Python-2563eb?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-0891b2?style=flat-square)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-7c3aed?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Şifreli metinler için algoritma tahmini ve çözümleme araçlarını Streamlit arayüzünde bir araya getiren eğitim uygulaması.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- Caesar, Vigenere ve XOR çözümleme araçları
+- Base64 kod çözümü, entropi ve IC analizi
+- Veri üretimi, model eğitimi ve doğrulama
+
+## Teknolojiler
+
+Python · Streamlit · Machine Learning
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/) [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 
 AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Streamlit tabanlı görsel kullanıcı arayüzü üzerinden şifreli metinleri analiz eder, en uygun şifreleme algoritmasını tahmin eder ve çözümünü sağlar.
 
-## ✨ Öne çıkanlar
+## Öne çıkanlar
 
 - Otomatik şifre tespiti ve çözümleme
 - Caesar, Vigenere, XOR ve Base64 destekli
@@ -12,7 +40,7 @@ AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Stre
 - Model eğitimi, değerlendirme ve doğrulama araçları
 - Kullanıcı dostu Streamlit arayüzü
 
-## ⚙️ Özellikler
+## Özellikler
 
 - `Caesar` (Sezar) şifre çözümü
 - `Vigenere` şifre çözümü
@@ -22,14 +50,14 @@ AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Stre
 - İndeks of Coincidence (IC) analizi
 - Model eğitim ve doğrulama süreçleri
 
-## 🧩 Nasıl çalışır?
+## Nasıl çalışır?
 
 1. Kullanıcı şifreli metni girer.
 2. Model ve algoritmalar metni analiz eder.
 3. En olası şifreleme türü tespit edilir.
 4. Şifreli metin çözülür ve kullanıcıya sunulur.
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 - `app.py`: Streamlit uygulaması
 - `main_solver.py`: Ana kriptanaliz sınıfı ve çözümleyici
@@ -42,7 +70,7 @@ AI Cryptanalyst, Yapay Zeka destekli bir kripto çözücü uygulamasıdır. Stre
 - `utils.py`: Yardımcı fonksiyonlar
 - `crypto_dataset.csv`: Kullanılan eğitim/veri seti
 
-## 🚀 Kurulum
+## Kurulum
 
 1. Proje dizinine gidin:
 
@@ -67,10 +95,16 @@ streamlit run app.py
 Bu proje, kriptanaliz algoritmalarını ve makine öğrenmesi tabanlı yaklaşımı birleştirerek karmaşık şifrelenmiş metinleri otomatik olarak çözmeyi hedefler.
 
 ---
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
-## 👩‍💻 Geliştirici
+</details>
 
-Şilan PEHLİVAN
+---
+
+<div align="center">
+
+**© 2026 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
